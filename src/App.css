@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+.products{
+display: grid;
+grid-template-columns: 2fr 2fr 2fr;
+padding-right: 15px;
+padding-top: 30px;
+
+}
+button{
+width: 200px;
+background-color: #282c34;
+color: antiquewhite;
+}
+
+h4{
+padding-right: 140px;
+
+}
+p{
+
+  width: 200px;
+  padding-left: 140px;
+  text-align: left;
+
+}
+.cost{
+
+  text-decoration: underline;}
+
+  ul{
+
+display: flex;
+justify-content: space-around ; 
+text-decoration: none;
+  }
+
+  .but{
+width: 80px;
+background-color: white;
+color: #282c34;
+margin-left: 1200px;
+margin-top: 10px;
+
+  }
