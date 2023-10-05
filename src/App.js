@@ -85,6 +85,15 @@ function App() {
  const removeFromShoppingBag =(productToRemove) =>{
 
   setCart(cart.filter(product => product !== productToRemove))
+
+  // jeg gør at produkterne kommer tilbage til view producks, så start siden ser rigtig ud
+
+  setProducts ([...products,productToRemove])
+
+
+
+
+
  };
 
 

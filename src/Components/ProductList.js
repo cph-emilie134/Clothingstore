@@ -17,7 +17,7 @@ export default function ProductList({ products, addToCart }) {
                         <p>{product.description}</p>
                         {/* jeg kalder på addtocart, som gør at jeg kan tilføje mit product til shoppingbag */}
                
-                        <button onClick={() => addToCart(product)}>Add to cart</button>
+                        <button onClick={() => addToCart(product)}>Add to Shopping</button>
                     </div>
                 ))}
             </div>
