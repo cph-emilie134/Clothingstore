@@ -41,7 +41,7 @@
 display: grid;
 grid-template-columns: 2fr 2fr 2fr;
 padding-right: 15px;
-padding-top: 30px;
+padding-top: 1px;
 
 }
 button{
@@ -82,7 +82,14 @@ margin-top: 10px;
   }
 
   .name{
- margin-left: 120px;
+ margin-left: 90px;
+
+
+  }
+
+  .color{
+
+margin-left: -10px;
 
 
   }

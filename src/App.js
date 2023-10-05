@@ -31,7 +31,6 @@ function App() {
  {
   id: '1',
   image:require('./img/nike.jpg'),
-  brand: 'Nick',
   Name:'Nike Air Force 1 07',
   model:'Air Force',
   cost:'999kr',
@@ -44,24 +43,22 @@ function App() {
 {
   id: '2',
   image: require('./img/nike2.jpg'),
-  brand: 'Nick',
   Name:'Nike Air Force 1 07',
   model:'',
   cost:'1500kr',
   size:'str 39',
-  color:'red',
+  color:'White',
   description: 'Den klassiske skatersko, der fungerer med og uden skateboard. ',
 },
 
 {
   id: '3',
   image: require('./img/nike3.jpg'),
-  brand: 'Nick',
-  Name:'',
+  Name:'Nike Air Force 1 07',
   model:'',
-  cost:'1500kr',
+  cost:'699kr',
   size:'str 39',
-  color:'red',
+  color:'White',
   description: 'Den klassiske skatersko, der fungerer med og uden skateboard. ',
 },
 
